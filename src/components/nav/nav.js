@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 
-function nav() {
+export default function nav() {
  {
         return (
-            <div style={{borderBottom: 'solid 2px black', borderRadius: 6 }} className="ui top fixed menu borderless">
-                <div className='header item'>
-                    <a className='nav-link hover' style={{padding: 5}} href='/'><h4 className='' style={{textShadow: '2px 6px 7px black, 4px -6px 7px black', color: 'black'}}></h4></a>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a class="navbar-brand" href="/">Austin Graphic and Web</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-                <a style={{color: 'white', textShadow: '0px 0px 1px #fff'}} className='nav-link' href='/' className='item'></a>
-                <a style={{color: 'white', textShadow: '0px 0px 1px #fff'}} className='nav-link' href='/' className='item'></a>
-                <a style={{color: 'white', textShadow: '0px 0px 1px #fff'}} className='nav-link' href='/generator' className='item'></a>
-            </div>
+            </nav>
+        </div>
+
                 );
     }
 }
-
-export default nav;
