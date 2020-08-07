@@ -5,12 +5,12 @@ By Austin Keener <br>
 ### 1. Usage <br>
 ### 2. License<br>
 
-link: 
+link: https://austingraphicandweb.github.io/react-portfolio/
 <hr>
 
 ## Screenshot
 
-![screenshot]()
+![screenshot](./screenshot.PNG)
 
 <hr>
 
